@@ -12,7 +12,7 @@ const SortSelctor = ({ onSelectSortOrder, sortOrder }: Props) => {
     { value: "name", label: "Name" },
     { value: "-released", label: "Release Date" },
     { value: "metacritic", label: "Popularity" },
-    { value: "-rating", label: "RelevanAverage ratingce" },
+    { value: "-rating", label: "Average rating" },
   ];
 
   const currentSortOrder = sortOrders.find(
